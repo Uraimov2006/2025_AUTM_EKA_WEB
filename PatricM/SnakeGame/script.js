@@ -20,7 +20,7 @@ let snake = {
 function drawGame(){ // the function for drawing the game
     ctx.drawImage(myPlayground, 0, 0);
     ctx.drawImage(myCarrot, food_coords.x, food_coords.y);
-    ctx.fillStyle = "#FFE607";
+    ctx.fillStyle = "#0a0901ff";
     ctx.fillRect(snake.x, snake.y, box, box);
 }
 
